@@ -1,14 +1,14 @@
 git config --global user.name "Adam Valenta"
 git config --global user.email "valenad1@fit.cvut.cz"
 
-git clone git@gitlab.fit.cvut.cz:valenad1/WT1-Blog.git
-cd WT1-Blog
+git clone https://github.com/valenad1/mvn-osgi-lib-2016-valenad1.git
+cd mvn-osgi-lib-2016-valenad1
 touch README.md
 git add README.md
 git commit -m "add README"
 git push -u origin master
 
-cd existing_folder
+cd mvn-osgi-lib-2016-valenad1
 git init
 git remote add origin git@gitlab.fit.cvut.cz:valenad1/WT1-Blog.git
 git push -u origin master
