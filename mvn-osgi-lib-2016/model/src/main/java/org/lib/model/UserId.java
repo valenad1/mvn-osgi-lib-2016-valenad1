@@ -4,9 +4,9 @@ package org.lib.model;
  *
  * @author valenad1
  */
-public class BookId extends Id {
+public class UserId extends Id {
 
-    public BookId(int id) {
+    public UserId(int id) {
         super(id);
     }
 
