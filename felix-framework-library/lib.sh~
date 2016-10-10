@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf felix-cache
+
+cp /home/users/v/valenad1/NetBeansProjects/mvn-osgi-lib-2016
+
+java -jar bin/felix.jar
